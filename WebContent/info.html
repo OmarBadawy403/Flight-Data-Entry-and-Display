@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <style>
+      body {
+        background-color: #eaf2f8; 
+        font-family: Arial, sans-serif;
+        padding: 20px;
+      }
+      .container {
+        background-color: #fff;
+        padding: 20px;
+        margin: 0 auto;
+        width: 60%;
+        border-radius: 8px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      }
+      h2 {
+        color: #2980b9;
+        text-align: center;
+      }
+      p {
+        font-size: 18px;
+        color: #34495e;
+        line-height: 1.6;
+      }
+      strong {
+        color: #16a085;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h2>User Information</h2>
+      <p><strong>First Name:</strong> ${firstname}</p>
+      <p><strong>Last Name:</strong> ${lastname}</p>
+      <p><strong>Phone Number:</strong> ${phoneNumber}</p>
+      <p><strong>Email:</strong> ${email}</p>
+
+      <h2>Flight Information</h2>
+      <p><strong>Plane Name:</strong> ${nameplane}</p>
+      <p><strong>Ticket Number:</strong> ${ticketnumber}</p>
+      <p><strong>From Country:</strong> ${fromcou}</p>
+      <p><strong>To Country:</strong> ${tocou}</p>
+    </div>
+  </body>
+</html>
